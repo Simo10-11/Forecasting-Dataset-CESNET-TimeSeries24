@@ -1,6 +1,4 @@
 # Dataset-CESNET-TimeSeries24
-> Guida pratica per tesisti: dataset, libreria e codice per esperimenti di **forecasting del traffico di rete**.
-
 ---
 
 ## Indice
@@ -39,8 +37,6 @@ Il dataset offre time series a **tre livelli gerarchici**:
 | `"ips"` | Singoli indirizzi IP | >275.000 |
 | `"institutions"` | Aggregato per istituzione | 283 |
 | `"institution_subnets"` | Aggregato per subnet istituzionale | 548 |
-
-> **💡 Consiglio per il forecasting:** Inizia con `"institutions"` (granularità oraria). Le time series istituzionali sono più regolari e meno sparse rispetto agli IP singoli.
 
 ### Granularità temporale (`aggregation`)
 

@@ -69,6 +69,7 @@ pip install torch numpy matplotlib pandas seaborn cesnet-tszoo ipython
 ## Avvio
 
 ```bash
+cd forecasting
 python3 forecasting_single_institution.py
 ```
 

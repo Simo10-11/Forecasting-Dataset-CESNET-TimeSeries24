@@ -134,7 +134,7 @@ def main():
     )
 
     dataset.set_dataset_config_and_initialize(config)   #setta la configurazione del dataset
-    print(dataset.dataset_config)  
+    #print(dataset.dataset_config)  
  
   
     single_ts_id = institution_id   

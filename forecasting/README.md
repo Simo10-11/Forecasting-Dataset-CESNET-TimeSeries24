@@ -79,7 +79,7 @@ Al primo avvio il dataset verrà scaricato automaticamente nella cartella `./dat
 ## Output
 
 - **Metriche sul test set** — MSE, MAE, RMSE e NRMSE in scala originale stampate a terminale
-- **Plot** — `forecast_single_institution_n_packets.png` con i primi 300 timestep predetti vs reali
+- **Plot** — `forecast_single_institution_n_packets.png` con i primi n timestep predetti vs reali
 - **Modello salvato** — `best_model_single_institution.pt` con i pesi del miglior modello
 
 ---

@@ -47,7 +47,7 @@ Le librerie necessarie sono:
 
 ```bash
 git clone <url-della-repository>
-cd forecasting-cesnet
+cd Forecasting-Dataset-CESNET-TimeSeries24 
 ```
 
 ### 2. Crea e attiva l'ambiente virtuale

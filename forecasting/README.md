@@ -46,7 +46,7 @@ Le librerie necessarie sono:
 ### 1. Clona il repository
 
 ```bash
-git clone https://github.com/tuo-username/forecasting-cesnet.git
+git clone <url-della-repository>
 cd forecasting-cesnet
 ```
 

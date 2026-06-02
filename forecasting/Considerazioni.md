@@ -32,13 +32,13 @@ Il modello è un buon *seguace della media*: segue bene l'andamento generale del
 
 ## Criticità
 
-**Assenza di informazioni temporali**
+**Assenza di informazioni temporali:**
 Il modello non sa se sta osservando un martedì alle 9:00 o un sabato alle 3:00 — un'informazione fondamentale per prevedere il traffico di rete, che segue pattern giornalieri e settimanali ben definiti. La feature temporale (`id_time`) è stata esclusa perché non veniva normalizzata correttamente dallo `StandardScaler`, causando problemi con l'intero dataset. Sarà oggetto di un prossimo possibile sviluppo.
 
-**Loss MSE e smussamento degli estremi**
+**Loss MSE e smussamento degli estremi:**
 La MSE spinge il modello verso la media e lo penalizza poco sugli errori nei momenti tranquilli, molto sui picchi. Il risultato sono previsioni conservative che non riproducono i picchi e down.
 
-**Variabilità tra istituzioni**
+**Variabilità tra istituzioni:**
 Il modello viene addestrato separatamente per ogni istituzione e le prestazioni dipendono fortemente dalla struttura della serie temporale. Istituzioni con traffico molto irregolare o con picchi rari sono sistematicamente più difficili da prevedere.
 
 ---
